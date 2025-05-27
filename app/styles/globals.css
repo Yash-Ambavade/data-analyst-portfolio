@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Import Inter font */
+@import "@fontsource/inter/index.css";
+
+/* Base styles */
+body {
+  @apply font-sans text-gray-900 bg-white;
+}
+
+a {
+  @apply transition-colors duration-200;
+}
